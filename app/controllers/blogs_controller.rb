@@ -46,7 +46,7 @@ class BlogsController < ApplicationController
         
       else
         format.html { render :edit }
-       
+              
       end
     end
   end
