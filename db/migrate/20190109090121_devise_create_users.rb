@@ -9,7 +9,7 @@ class DeviseCreateUsers < ActiveRecord::Migration[5.2]
 
       ##Custom fileds
       t.string :name
-      
+       
 
       ## Recoverable
       t.string   :reset_password_token
