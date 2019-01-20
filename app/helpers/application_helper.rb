@@ -20,4 +20,8 @@ module ApplicationHelper
             content_tag(:p,greeting, class: "source-greeting")
            end 
       end
+
+      def copyright_generator
+        LumaViewTool::Renderer.copyright('Lukasz Zubrzycki', 'All rights reserved ')
+      end
 end

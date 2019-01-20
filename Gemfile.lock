@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/lukaszub/luma_view_tool
+  revision: bec4c70a650f6b3a6dcb061535a5702595fd5165
+  specs:
+    luma_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -221,6 +227,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails
   listen (>= 3.0.5, < 3.2)
+  luma_view_tool!
   pg (>= 0.18, < 2.0)
   pry-byebug
   puma (~> 3.11)
