@@ -3,8 +3,8 @@
   layout "blog"
   # GET /blogs
   # GET /blogs.json
-  def index
-    @blogs = Blog.all
+  def index      
+    @blogs = Blog.special_blog
     @page_title = "My porfolio blog"
   end
 
