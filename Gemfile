@@ -64,3 +64,5 @@ gem 'bootstrap', '~> 4.2.1'
 gem 'jquery-rails'
 
 gem 'luma_view_tool', git:'https://github.com/lukaszub/luma_view_tool'
+
+gem 'petergate', '~> 2.0', '>= 2.0.1'
