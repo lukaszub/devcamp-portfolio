@@ -5,7 +5,7 @@
   # GET /blogs
   # GET /blogs.json
   def index      
-    @blogs = Blog.special_blog
+    @blogs = Blog.page(params[:page]).per(5)
     @page_title = "My porfolio blog"
   end
 
